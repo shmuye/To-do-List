@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+#toDocontainer{
+    padding: 1em;
+    width: 60%;
+    border-radius: 0.5em;
+    box-shadow: 2px 2px 3px #488,-2px -2px 3px #488;
+    background-color: lightgreen;
+    font-size: 20px;
+}
+#taskInput{
+    width: 50%;
+    padding: 1em 2em;
+    border-radius: .5em;
+    border-width: .1em;
+    margin-bottom: .2em;
+}
+.checkbox{
+    margin-right: 2em;
+}
+.par{
+    padding: 0.25em;
+    background-color: black;
+    margin: 0.2em;
+    color: lightgreen;
+    border-radius: 0.1em;
+    width: 75%;
+}
+
+button{
+  padding: 0.5em 2em;
+  border: none;
+  border-radius: 0.5em;
+  margin: 0.5em;
+}
+#addBtn{
+    background-color: blue;
+}
+#deleteBtn{
+    background-color: red;
+}
